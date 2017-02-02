@@ -1,7 +1,12 @@
+/*||||||||||||||||||
+-CSS RESETS-
+||||||||||||||||||*/
+
 body {
   margin: 0;
   font-family: sans-serif;
 }
+
 
 ul {
   padding-left: 0;
@@ -11,4 +16,43 @@ ul {
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100% /* tells the images that they can't be any bigger than their container */
+}
+
+/*||||||||||||||||||
+-DOUBLE CONTAINER-
+||||||||||||||||||*/
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto; /* only works if you've defined a width, moves it into the center
+                     where there are equal margins on each side */
+  background: red;
+}
+
+.grid {
+
+}
+
+.grid__item {
+  width: calc(100% / 3 - 1rem - 1rem)
+}
+
+.title {
+
+}
+
+.item-info {
+
+}
+
+.item-left {
+
+}
+
+.item-right {
+
 }
