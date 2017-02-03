@@ -24,8 +24,7 @@ ul {
 
 img {
   max-width: 100%; /* tells the images that they can't be any bigger than their container */
-  border-radius: 1%;
-  border: 1px solid #adadad;
+
 }
 
 .container {
@@ -50,28 +49,39 @@ img {
 }
 
 .item-info {
-
+  border-bottom: 1px solid #bababa;
+  overflow: auto;
 }
 
 .info-left {
   float: left;
-  line-height: 2rem;
   color: #bababa;
-  background: red;
+  line-height: 2rem;
 }
 
 .info-right {
   line-height: 2rem;
   float: right;
   color: #545454;
-  background: green;
-}
-
-.p {
 
 }
+
 
 .bold-username {
   color: black;
   font-weight: 500;
+}
+
+.big {
+  border-radius: 1%;
+  border: 1px solid #adadad;
+}
+
+.small {
+  border-radius: 1%;
+  line-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+  float: right;
+  margin-left: 0.5rem;
 }
