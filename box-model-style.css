@@ -18,27 +18,31 @@ ul {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100% /* tells the images that they can't be any bigger than their container */
-}
-
 /*||||||||||||||||||
 -DOUBLE CONTAINER-
 ||||||||||||||||||*/
+
+img {
+  max-width: 100%; /* tells the images that they can't be any bigger than their container */
+  border-radius: 1%;
+  border: 1px solid #adadad;
+}
 
 .container {
   max-width: 65rem;
   margin: 0 auto; /* only works if you've defined a width, moves it into the center
                      where there are equal margins on each side */
-  background: red;
+
 }
 
 .grid {
-
+  overflow: auto;
 }
 
 .grid__item {
-  width: calc(100% / 3 - 1rem - 1rem)
+  width: calc(100% / 3 - 1rem - 1rem);
+  float: left;
+  margin: 1rem;
 }
 
 .title {
@@ -49,10 +53,25 @@ img {
 
 }
 
-.item-left {
+.info-left {
+  float: left;
+  line-height: 2rem;
+  color: #bababa;
+  background: red;
+}
+
+.info-right {
+  line-height: 2rem;
+  float: right;
+  color: #545454;
+  background: green;
+}
+
+.p {
 
 }
 
-.item-right {
-
+.bold-username {
+  color: black;
+  font-weight: 500;
 }
