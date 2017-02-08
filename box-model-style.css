@@ -24,7 +24,6 @@ ul {
 
 img {
   max-width: 100%; /* tells the images that they can't be any bigger than their container */
-
 }
 
 .container {
@@ -63,7 +62,6 @@ img {
   line-height: 2rem;
   float: right;
   color: #545454;
-
 }
 
 
@@ -78,7 +76,7 @@ img {
 }
 
 .small {
-  border-radius: 1%;
+  border-radius: 15%;
   line-height: 2rem;
   height: 2rem;
   width: 2rem;
